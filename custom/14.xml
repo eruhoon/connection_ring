@@ -1,0 +1,16 @@
+<component>
+
+	<constants>
+		<var1 key="name" value="최해찬" />
+	</constants>
+
+	<layer>
+		<background image="http://kyosu.mooo.com/gallery/img.php?src=/gallery/images/1390111900.png" />
+		<position x="50" y="100" width="150" height="200" />
+	</layer>
+
+	<memo>
+		<position x="52" y="102" width="146" height="196" />
+	</memo>
+
+</component>

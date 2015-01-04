@@ -1,0 +1,34 @@
+<component width="900" height="800">
+	
+	<constants>
+		<var key="image_dir" value="http://210.118.74.92/ConnectionRing/Images/"/>
+	</constants>
+
+	<layer>
+		<background img="##image_dir##MineCraftCalendar_0.png"/>
+		<position x="0" y="0" width="900" height="800" />
+	</layer>
+	
+	<calendar>
+		<year src="##image_dir##MineCraftCalendar_0.png" offset="100">
+			<position x="20" y="20" width="200" height="50" />
+		</year>
+		
+		<month src="##image_dir##MineCraftCalendar_0.png" offset="100">
+			<position x="330" y="50" width="200" height="100" />
+		</month>
+		
+		<day src="##image_dir##MineCraftCalendar_0.png" offset="100" sundaysrc="##image_dir##MineCraftCalendar_0.png" saturdaysrc="##image_dir##MineCraftCalendar_0.png">
+			<position x="50" y="220" width="665" height="480" />
+		</day>
+		
+		<!--<button_cal command="prevmonth">
+			<position/>
+		</button_cal>
+		
+		<button_cal>
+		</button_cal>-->
+		
+		<position x="75" y="60" width="765" height="600"/>
+	</calendar>
+</component>

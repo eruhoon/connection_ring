@@ -1,0 +1,27 @@
+<component>
+<layer>
+<background image="http://pixabay.com/static/uploads/photo/2013/07/12/15/39/post-it-150261_640.png"/>
+<background image="http://kyosu.mooo.com/gallery/images/1418542981.gif"/>
+<position x="0" y="0" width="300" height="300"/>
+</layer>
+<layer>
+<background image="http://kyosu.mooo.com/gallery/images/1390216095.gif"/>
+<background image="양성호"/>
+<position x="100" y="100" width="20" height="20"></position>
+</layer>
+<layer>
+<background image="http://kyosu.mooo.com/gallery/images/1403532443.gif"/>
+<background image="양성호"/>
+<position x="260" y="260" width="20" height="20"></position>
+</layer>
+<layer>
+<background color="#585858" />
+<background image="양성호"/>
+<position x="80" y="50" width="20" height="20"></position>
+</layer>
+
+
+<memo>
+<position x="52" y="102" width="146" height="196"/>
+</memo>
+</component>

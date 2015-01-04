@@ -1,0 +1,77 @@
+<component width="500" height="365">
+
+
+    <webparser url="http://openapi.naver.com/search?key=277e00d3650d86619cfcd5311d01aa4e&amp;query=%EC%B6%A9%EA%B2%A9&amp;target=news&amp;start=1&amp;display=10" regex="(?=&lt;item>).*&lt;title>(.*)&lt;\/title>.*&lt;link>(.*)&lt;\/link>" />
+
+	<layer>
+		<background color="#003399"/>
+		<position x="0" y="0" width="500" height="365" />
+	</layer>
+	<layer>
+	    <background image="http://210.118.74.153/ring/item/shock/head.png" color="#FF8224"/>
+		<position x="10" y="10" width="480" height="70" />
+	</layer>
+	
+	<label text="충격기!!!!!" color="#FFFFFF">
+        <position x="30" y="30" width="300" height="50"></position>
+    </label>
+    
+	<layer>
+	    <background color="#990085"/>
+		<position x="10" y="85" width="480" height="50" />
+	</layer>
+    <label text="##WP5##" color="#FFFFFF">
+        <position x="30" y="95" width="400" height="50"></position>
+    </label>
+    
+    <layer>
+        <background color="#3669CF"/>
+		<position x="10" y="140" width="480" height="50" />
+    </layer>
+    <label text="##WP8##" color="#FFFFFF">
+        <position x="30" y="150" width="400" height="50"></position>
+    </label>
+    
+    <layer>
+        <background color="#58AA52"/>
+		<position x="10" y="195" width="480" height="50" />
+    </layer>
+    <label text="##WP11##" color="#FFFFFF">
+        <position x="30" y="205" width="400" height="50"></position>
+    </label>
+    
+    <layer>
+        <background color="#BC2424"/>
+		<position x="10" y="250" width="480" height="50" />
+    </layer>
+    <label text="##WP14##" color="#FFFFFF">
+        <position x="30" y="260" width="400" height="50"></position>
+    </label>
+    
+    <layer>
+        <background color="#36B8CF"/>
+		<position x="10" y="305" width="480" height="50" />
+    </layer>
+    <label text="##WP17##" color="#FFFFFF">
+        <position x="30" y="315" width="400" height="50"></position>
+    </label>
+    <memo>
+        <button_memo command="link" link="##WP6##">
+            <position x="10" y="85" width="480" height="50" />
+        </button_memo>
+        <button_memo command="link" link="##WP9##">
+            <position x="10" y="140" width="480" height="50" />
+        </button_memo>
+        <button_memo command="link" link="##WP12##">
+            <position x="10" y="195" width="480" height="50" />
+        </button_memo>
+        <button_memo command="link" link="##WP15##">
+            <position x="10" y="250" width="480" height="50" />
+        </button_memo>
+        <button_memo command="link" link="##WP18##">
+            <position x="10" y="305" width="480" height="50" />
+        </button_memo>
+        <position x="0" y="0" width="500" height="365"></position>
+        
+    </memo>
+</component>

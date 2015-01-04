@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<component width="480" height="175">
+
+	<webparser url="http://www.kma.go.kr/wid/queryDFSRSS.jsp?zone=1144060000" regex="&lt;category>(.*)&lt;\/category>|(?=&lt;data)&lt;data.*>.*&lt;hour>(.*)&lt;\/hour>.*&lt;temp>(.*)&lt;\/temp>.*&lt;wfEn>(.*)&lt;\/wfEn>.*&lt;\/data>">
+	</webparser>
+
+	<layer>
+		<background color="#002266" />
+		<position x="0" y="0" width="480" height="175" />
+	</layer>
+   
+    <layer>
+		<background color="#990085" />
+		<position x="5" y="5" width="375" height="80" />
+	</layer>
+	<label text="##WP2##" color="#FFFFFF">
+        <position x="30" y="30" width="300" height="100"></position>
+    </label>
+
+
+    <layer>
+		<background color="#FFF136" />
+		<position x="385" y="5" width="90" height="80" />
+	</layer>
+	<layer>
+	    	<position x="385" y="5" width="90" height="80" />
+	    <background image="http://210.118.74.153/ring/item/metro/Tem.png">
+		  <position x="385" y="5" width="90" height="80" />
+		</background>
+	</layer>
+	<layer>
+		<background color="#A5A5A5" />
+		<position x="5" y="90" width="90" height="80" />
+	</layer>
+	<layer>
+	    <position x="5" y="90" width="90" height="80" />
+	    <background image="http://210.118.74.153/ring/item/metro/##WP10##.png">
+		   <position x="5" y="90" width="90" height="80" />
+		</background>
+	</layer>
+	<label text="##WP8##:00" color="#FFFFFF">
+        <position x="30" y="86" width="100" height="100"></position>
+    </label>
+    <label text="##WP9##℃" color="#FFFFFF">
+        <position x="30" y="150" width="100" height="100"></position>
+    </label>
+	<layer>
+		<background color="#BCFFB5" />
+		<position x="100" y="90" width="90" height="80" />
+	</layer>
+	<layer>
+	    	<position x="100" y="90" width="90" height="80" />
+	    <background image="http://210.118.74.153/ring/item/metro/##WP15##.png">
+		   	<position x="100" y="90" width="90" height="80" />
+		</background>
+	</layer>
+	<label text="##WP13##:00" color="#FFFFFF">
+        <position x="125" y="86" width="100" height="100"></position>
+    </label>
+    <label text="##WP14##℃" color="#FFFFFF">
+    <position x="125" y="150" width="100" height="100"></position>
+    </label>
+	<layer>
+		<background color="#FFA9EE" />
+		<position x="195" y="90" width="90" height="80" />
+	</layer>
+	<layer>
+	    <position x="195" y="90" width="90" height="80" />>
+	    <background image="http://210.118.74.153/ring/item/metro/##WP20##.png">
+		    <position x="195" y="90" width="90" height="80" />
+		</background>
+	</layer>
+	<label text="##WP18##:00" color="#FFFFFF">
+        <position x="220" y="86" width="100" height="100"></position>
+    </label>
+    <label text="##WP19##℃" color="#FFFFFF">
+        <position x="220" y="150" width="100" height="100"></position>
+    </label>
+	
+	<layer>
+		<background color="#6799FF" />
+		<position x="290" y="90" width="90" height="80" />
+	</layer>
+	<layer>
+	    <position x="290" y="90" width="90" height="80" />
+	    <background image="http://210.118.74.153/ring/item/metro/##WP25##.png">
+		    <position x="290" y="90" width="90" height="80"/>
+		</background>
+	</layer>
+	<label text="##WP23##:00" color="#FFFFFF">
+        <position x="315" y="86" width="100" height="100"></position>
+    </label>
+    <label text="##WP24##℃" color="#FFFFFF"> 
+        <position x="315" y="150" width="100" height="100"></position>
+    </label>
+	<layer>
+		<background color="#5A7CC0" />
+		<position x="385" y="90" width="90" height="80" />
+	</layer>
+    <layer>
+        <position x="385" y="90" width="90" height="80" />
+        <background image="http://210.118.74.153/ring/item/metro/##WP30##.png">
+		    <position x="385" y='90' width='90' height='80'/>
+		</background>
+    </layer>
+    
+    <label text="##WP28##:00" color="#FFFFFF">
+        <position x="410" y="86" width="100" height="100"></position>
+    </label>
+    <label text="##WP29##℃" color="#FFFFFF">
+        <position x="410" y="150" width="100" height="100"></position>
+    </label>    
+    </component>

@@ -1,0 +1,39 @@
+<component width="300" height="300">
+	<layer>
+		<background image="http://210.118.74.153/ring/asset/img/memobg-default.png" />
+		<position x="0" y="0" width="300" height="300" />
+	</layer>
+
+	<layer>
+		<background color="#FFFFFF" />
+		<position x="20" y="100" width="240" height="100" />
+	
+	</layer>
+
+	<memo>
+		<position x="20" y="100" width="270" height="180" />
+		<textarea fontsize="12">
+			<position x="0" y="0" width="240" height="100" />
+		</textarea>
+
+		<agenda fontsize="10">
+			<position x="0" y="110" width="240" height="30" />
+		</agenda>
+
+		<button_memo command="delete" src_normal="http://image.shutterstock.com/display_pic_with_logo/1442480/159828980/stock-vector-shield-firewall-icon-grx-btn-metallic-red-version-159828980.jpg" src_onmouseover="http://thumb9.shutterstock.com/display_pic_with_logo/1442480/159169772/stock-vector-book-icon-grx-btn-metallic-blue-version-159169772.jpg" src_onmousedown="http://documentia.ca/wp-content/uploads/2010/12/btn_icon2.jpg">
+			<position x="0" y="150" width="20" height="20" />
+		</button_memo>
+
+		<button_memo command="hold" src_normal="http://image.shutterstock.com/display_pic_with_logo/1442480/159828980/stock-vector-shield-firewall-icon-grx-btn-metallic-red-version-159828980.jpg" src_onmouseover="http://thumb9.shutterstock.com/display_pic_with_logo/1442480/159169772/stock-vector-book-icon-grx-btn-metallic-blue-version-159169772.jpg" src_onmousedown="http://documentia.ca/wp-content/uploads/2010/12/btn_icon2.jpg">
+			<position x="50" y="150" width="20" height="20" />
+		</button_memo>
+
+		<button_memo command="link" link="http://210.118.74.153/ring/index.php" src_normal="http://image.shutterstock.com/display_pic_with_logo/1442480/159828980/stock-vector-shield-firewall-icon-grx-btn-metallic-red-version-159828980.jpg" src_onmouseover="http://thumb9.shutterstock.com/display_pic_with_logo/1442480/159169772/stock-vector-book-icon-grx-btn-metallic-blue-version-159169772.jpg" src_onmousedown="http://documentia.ca/wp-content/uploads/2010/12/btn_icon2.jpg">
+			<position x="100" y="150" width="20" height="20" />
+		</button_memo>
+
+		<button_memo command="addcalendar" src_normal="http://image.shutterstock.com/display_pic_with_logo/1442480/159828980/stock-vector-shield-firewall-icon-grx-btn-metallic-red-version-159828980.jpg" src_onmouseover="http://thumb9.shutterstock.com/display_pic_with_logo/1442480/159169772/stock-vector-book-icon-grx-btn-metallic-blue-version-159169772.jpg" src_onmousedown="http://documentia.ca/wp-content/uploads/2010/12/btn_icon2.jpg">
+			<position x="150" y="150" width="20" height="20"/>
+		</button_memo>
+	</memo>
+</component>

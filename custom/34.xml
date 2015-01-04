@@ -1,0 +1,34 @@
+<component width="500" height="563">
+	
+	<constants>
+		<var key="image_dir" value="http://210.118.74.92/ConnectionRing/Images/"/>
+	</constants>
+	
+	<layer>
+		<background image="##image_dir##MineCraftMemo_0.png">
+		</background>
+		
+		<position x="0" y="0" width="500" height="563">
+		</position>
+	</layer>
+	
+	<memo>
+		<textarea fontsize="12">
+			<position x="0" y="0" width="400" height="360"></position>
+		</textarea>
+		
+		<agenda format="yy/mm/dd">
+			<position x="10" y="380" width="150" height="30"></position>
+		</agenda>
+		
+		<button_memo command="addcalendar" src_normal="##image_dir##MineMemo_0_BTN_N.png" src_onmouseover="##image_dir##MineMemo_0_BTN_O.png" src_onmousedown="##image_dir##MineMemo_0_BTN_D.png">
+			<position x="170" y="360" width="120" height="56"></position>
+		</button_memo>
+		
+		<button_memo command="delete" src_normal="##image_dir##MineMemo_1_BTN_N.png" src_onmouseover="##image_dir##MineMemo_1_BTN_O.png" src_onmousedown="##image_dir##MineMemo_1_BTN_D.png">
+			<position x="280" y="360" width="120" height="56"></position>
+		</button_memo>
+		
+		<position x="60" y="50" width="400" height="430"></position>
+	</memo>
+</component>

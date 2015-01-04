@@ -1,0 +1,160 @@
+		
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+
+.dashboard {
+	position: absolute;
+}
+
+.datepicker {
+	position: absolute;
+}
+
+.guidebox{
+	position: absolute;
+	z-index:999;
+}
+
+.component {
+	position: absolute;
+}
+
+.notice {
+	background-image: url('http://210.118.74.153/ring/asset/img/notice.png');
+	padding: 20px;
+}
+
+
+.selected {
+	z-index: 10;
+}
+
+.component .custom_layer{
+	position: absolute;
+}
+
+.navigator {
+	background-color: #181818;
+	opacity: 0.7;
+	height: 180px;
+	width: 320px;
+	font: #181818;
+	z-index: 99;
+}
+
+.contextmenu{
+	position: absolute;
+	z-index: 99999;
+}
+
+.navicomponent {
+	position: absolute;
+}
+
+.dock {
+	left: 50%;
+	z-index: 100;
+}
+
+.docklist {
+	display: inline-block;
+}
+
+.docknamehelper {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+.docknamehelper span{
+	background-color: #FFFFFF;
+}
+
+.minimap {
+	border: solid 1px;
+	border-color: #FFFFFF;
+	position: absolute;
+	background-color: #FFFFFF;
+	opacity: 0.2;
+	z-index: 99;
+}
+
+.left-fixed { position: fixed; left: 0; }
+.right-fixed { position: fixed; right: 0; }
+.top-fixed { position: fixed; top: 0; }
+.bottom-fixed { position: fixed; bottom: 0; }
+
+.dockicon
+{
+	display: inline-block;
+
+	background-clip: border-box;
+	-webkit-background-clip: border-box;
+	-o-background-clip: border-box;
+	-moz-background-clip: border-box;
+
+	background-origin: padding-box;
+	-webkit-background-origin: padding-box;
+	-o-background-origin: padding-box;
+	-moz-background-origin: padding-box;
+
+	background-size: auto;
+	-webkit-background-size: auto;
+	-o-background-size: auto;
+	-moz-background-size: auto;
+
+	transition-delay: 0s;
+	-webkit-transition-delay: 0s;
+	-o-transition-delay: 0s;
+	-moz-transition-delay: 0s;
+
+	transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+
+	transition-property: all;
+	-webkit-transition-property: all;
+	-o-transition-property: all;
+	-moz-transition-property: all;
+
+	transition-timing-function: linear;
+	-webkit-transition-timing-function: linear;
+	-o-transition-timing-function: linear;
+	-moz-transition-timing-function: linear;
+
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	
+	cursor: pointer;
+	
+	transition-delay: 0s;
+	transition-duration: 0.2s;
+	transition-property: all;
+	transition-timing-function: linear;
+}
+
+/*.dockicon:hover { -webkit-transform: rotate(360deg); }*/
+.dockicon:hover {
+	transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+}
+
+
+
+/*******************************************************************************
+	STATE CSS
+*******************************************************************************/
+.componentMoving { opacity: 0.5;  z-index: 99999; }
+.hidden { visibility: hidden; }

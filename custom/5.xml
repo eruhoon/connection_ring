@@ -1,0 +1,31 @@
+<component>
+	<webparser url="http://kyosu.mooo.com/php/checkbroadcast.php?onair=1" regex="(?=&lt;struct&gt;).*&lt;struct&gt;.*&lt;string&gt;(.*)&lt;\/string&gt;.*&lt;string&gt;(.*)&lt;\/string&gt;.*&lt;string&gt;(.*)&lt;\/string&gt;.*&lt;string&gt;(.*)&lt;\/string&gt;.*&lt;string&gt;(.*)&lt;\/string&gt;.*&lt;string&gt;(.*)&lt;\/string&gt;.*&lt;\/struct&gt;">
+		<var/>
+	</webparser>
+
+	<constants>
+		<var key="name" value="최해찬" />
+		<var key="name2" value="양성호" />
+		<var key="layerHeight" value="200" />
+		<var key="bg-img" value="http://pixabay.com/static/uploads/photo/2013/07/12/15/39/post-it-150261_640.png" />
+		<var key="bg-img2" value="http://kyosu.mooo.com/gallery/images/1418542981.gif"/>
+	</constants>
+
+	<layer>
+		<background image="##bg-img##" />
+		<background image="##WP7##" />
+		<position x="50" y="100" width="150" height="##layerHeight##" />
+	</layer>
+
+	<layer>
+		<background image="##bg-img2##" />
+		<background image="##name2##" />
+		<position x="50" y="100" width="150" height="##layerHeight##">
+		</position>
+	</layer>
+
+	<memo>
+		<position x="52" y="102" width="146" height="196" />
+	</memo>
+
+</component>

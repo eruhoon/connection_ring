@@ -1,0 +1,35 @@
+<component width="900" height="800">
+	
+	<constants>
+		<var key="image_dir" value="http://210.118.74.92/ConnectionRing/Images/"/>
+	</constants>
+
+	<layer>
+		<background image="##image_dir##MineCraftCalendar_0.png"/>
+		<position x="0" y="0" width="900" height="800" />
+	</layer>
+	
+	<calendar>
+		<year src="##image_dir##Numbers.png" offset="100">
+			<position x="70" y="20" width="200" height="50" />
+		</year>
+		
+		<month src="##image_dir##Numbers.png" offset="100">
+			<position x="330" y="50" width="200" height="100" />
+		</month>
+		
+		<date src="##image_dir##Numbers.png" offset_x="100" offset_y="100" sundaysrc="##image_dir##Numbers.png" saturdaysrc="##image_dir##Numbers.png">
+			<position x="120" y="220" width="645" height="480" />
+		</date>
+		
+		<button_cal command="prevmonth" src_normal="##image_dir##MineCal_1_BTN_N.png" src_onmouseover="##image_dir##MineCal_1_BTN_O.png" src_onmousedown="##image_dir##MineCal_1_BTN_D.png">
+			<position x="30" y="300" width="100" height="50"/>
+		</button_cal>
+		
+		<button_cal command="nextmonth" src_normal="##image_dir##MineCal_0_BTN_N.png" src_onmouseover="##image_dir##MineCal_0_BTN_O.png" src_onmousedown="##image_dir##MineCal_0_BTN_D.png">
+			<position x="740" y="300" width="100" height="50"/>
+		</button_cal>
+		
+		<position x="25" y="60" width="820" height="600"/>
+	</calendar>
+</component>

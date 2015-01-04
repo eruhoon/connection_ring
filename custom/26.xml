@@ -1,0 +1,29 @@
+<component width="700" height="600">
+<!--26-->
+	<layer>
+		<background image="http://210.118.74.153/ring/asset/img/memobg-default.png" />
+		<position x="0" y="0" width="700" height="600" />
+	</layer>
+
+	<calendar>
+		<year src="http://www.digitalsutras.com/wp-content/uploads/2013/09/font_number_sprite.png" offset="90">
+			<position x="10" y="10" width="120" height="90"></position>
+		</year>
+		<month src="http://www.digitalsutras.com/wp-content/uploads/2013/09/font_number_sprite.png" offset="90">
+			<position x="240" y="20" width="180" height="90"/>
+		</month>
+		<date column="0" offset_x="90" offset_y="90" schedulesrc="http://210.118.74.153/ring/asset/img/calendarnum-default.png" saturdaysrc="http://210.118.74.153/ring/asset/img/calendarnumsat-default.png" sundaysrc="http://210.118.74.153/ring/asset/img/calendarnumsun-default.png" src="http://www.digitalsutras.com/wp-content/uploads/2013/09/font_number_sprite.png">
+			<position x="60" y="180" width="540" height="400"/>
+		</date>
+		<button_cal command="prevmonth" src_normal="http://image.shutterstock.com/display_pic_with_logo/1442480/159828980/stock-vector-shield-firewall-icon-grx-btn-metallic-red-version-159828980.jpg" src_onmouseover="http://thumb9.shutterstock.com/display_pic_with_logo/1442480/159169772/stock-vector-book-icon-grx-btn-metallic-blue-version-159169772.jpg" src_onmousedown="http://documentia.ca/wp-content/uploads/2010/12/btn_icon2.jpg">
+			<position x="0" y="300" width="25" height="25" />
+		</button_cal>
+
+		<button_cal command="nextmonth" src_normal="http://image.shutterstock.com/display_pic_with_logo/1442480/159828980/stock-vector-shield-firewall-icon-grx-btn-metallic-red-version-159828980.jpg" src_onmouseover="http://thumb9.shutterstock.com/display_pic_with_logo/1442480/159169772/stock-vector-book-icon-grx-btn-metallic-blue-version-159169772.jpg" src_onmousedown="http://documentia.ca/wp-content/uploads/2010/12/btn_icon2.jpg">
+			<position x="640" y="300" width="25" height="25" />
+		</button_cal>
+
+		<position x="20" y="20" width="660" height="560"></position>
+	</calendar>
+
+</component>

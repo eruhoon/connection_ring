@@ -1,0 +1,23 @@
+<component width="238" height="175">
+	<constants>
+		<var key="imgdir" value="http://210.118.74.153/ring/item/calendar/" />
+	</constants>
+
+	<layer>
+		<background image="##imgdir##back.png" />
+		<position x="0" y="0" width="238" height="175" />
+	</layer>
+
+	<calendar>
+		<year src="##imgdir##yearnum.png" offset="18">
+			<position x="20" y="20" width="36" height="25"></position>
+		</year>
+		<month src="##imgdir##yearnum.png" offset="18">
+			<position x="50" y="10" width="36" height="25"/>
+		</month>
+		<date column="0" offset_x="7" offset_y="6" saturdaysrc="##imgdir##blue_day.png" sundaysrc="##imgdir##red_day.png" src="##imgdir##black_day.png">
+			<position x="20" y="50" width="200" height="100"/>
+		</date>
+		<position x="0" y="0" width="238" height="175"></position>
+	</calendar>
+</component>

@@ -1,0 +1,13 @@
+<component width="500" height="500">
+
+	<constants>
+		<var1 key="name" value="최해찬" />
+	</constants>
+
+	<layer>
+		<background image="http://img2.ruliweb.daum.net/mypi/gup/a/3/14/o/13338066070.jpg" />
+		<position x="0" y="0" width="500" height="500" />
+	</layer>
+
+
+</component>

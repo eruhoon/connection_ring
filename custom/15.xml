@@ -1,0 +1,21 @@
+<component>
+
+	<layer>
+		<background image="http://pixabay.com/static/uploads/photo/2013/07/12/15/39/post-it-150261_640.png" />
+		<position x="0" y="0" width="300" height="300" />
+	</layer>
+
+	<memo>
+	    <textarea fontsize="15"> 
+	        <position x="0" y="0" width="280" height="240"></position>
+	    </textarea>
+	    <button_memo value="BT1" command="delete" src_normal="http://kyosu.me/gallery/images/1415210244.gif" src_onmouseover="http://kyosu.me/gallery/images/1416959460.gif">
+	        <position x="200" y="200" width="30" height="30"></position>
+	    </button_memo>
+	    <button_memo value="BT2" command="hold" src_normal="http://kyosu.me/gallery/images/1415210244.gif" src_onmouseover="http://kyosu.me/gallery/images/1416959460.gif">
+	        <position x="240" y="200" width="30" height="30"></position>
+	    </button_memo>
+		<position x="10" y="50" width="280" height="240" />
+	</memo>
+
+</component>
