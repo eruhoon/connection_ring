@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_page"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/login_main_register"
+            android:layout_width="240dp"
+            android:layout_height="45dp"
+            android:background="@drawable/btn_login_main_register"
+            android:paddingTop="100dp" />
+
+        <ImageButton
+            android:id="@+id/login_main_login"
+            android:layout_width="240dp"
+            android:layout_height="45dp"
+            android:background="@drawable/btn_login_main_login" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login_login_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="top|center_horizontal"
+        android:visibility="gone"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/login_login_edit_id"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/login_edittext_background"
+            android:gravity="center_vertical"
+            android:hint="아이디"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/login_login_edit_pw"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/login_edittext_background"
+            android:gravity="center_vertical"
+            android:hint="비밀번호"
+            android:password="true"
+            android:singleLine="true" />
+
+         <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+            <ImageButton
+                android:id="@+id/login_login_login"
+                android:layout_width="110dp"
+                android:layout_height="45dp"
+                android:background="@drawable/btn_login_login_login" />
+            <ImageButton
+                android:id="@+id/login_login_cancel"
+                android:layout_width="110dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/btn_login_register_cancel" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:gravity="right"
+                android:text="자동 로그인"
+                android:textColor="#ffffff"
+                android:textSize="12dip" />
+
+            <CheckBox
+                android:id="@+id/login_login_check"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:button="@drawable/checkbox_background" >
+            </CheckBox>
+        </LinearLayout>
+        
+       
+    </LinearLayout>
+
+    
+    
+    
+    
+    
+    <LinearLayout
+        android:id="@+id/login_register_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="top|center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <EditText
+            android:id="@+id/login_register_edit_id"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/login_edittext_background"
+            android:gravity="center_vertical"
+            android:hint="아이디"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/login_register_edit_pw"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/login_edittext_background"
+            android:gravity="center_vertical"
+            android:hint="비밀번호"
+            android:password="true"
+            android:singleLine="true" />
+        
+        <EditText
+            android:id="@+id/login_register_edit_pw_2"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/login_edittext_background"
+            android:gravity="center_vertical"
+            android:password="true"
+            android:hint="비밀번호 확인"
+            
+            android:singleLine="true" />
+        
+        <EditText
+            android:id="@+id/login_register_edit_name"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/login_edittext_background"
+            android:gravity="center_vertical"
+            android:hint="이름"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+            <ImageButton
+                android:id="@+id/login_register_register"
+                android:layout_width="110dp"
+                android:layout_height="45dp"
+                android:background="@drawable/btn_login_register_register" />
+
+            <ImageButton
+                android:id="@+id/login_register_cancel"
+                android:layout_width="110dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/btn_login_register_cancel" />
+            
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

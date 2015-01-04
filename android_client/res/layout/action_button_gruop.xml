@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="bottom|right"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/btnActionDash"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/action_dash_btn"
+        android:scaleType="fitXY" />
+    
+    <ImageButton
+        android:id="@+id/btnActionCalendar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/action_calendar_btn"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/btnActionMemo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/action_memo_btn"
+        android:scaleType="fitXY" />
+    
+    <ImageButton
+        android:id="@+id/btnActionExpand"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/action_expand_btn"
+        android:scaleType="fitXY" />
+    
+</LinearLayout>

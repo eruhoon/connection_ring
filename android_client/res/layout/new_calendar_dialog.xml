@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/newcalendar_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:text="DashBoard Name : "
+            android:textSize="15dip"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner_newcalendar"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#ffffff" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_newcalendar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF"
+        android:textColor="#000000" />
+
+</LinearLayout>
